@@ -1,4 +1,4 @@
-const { opposite_number } = required('../index');
+const { opposite_number } = require('../index');
 
 describe('Opposite Number', () => {
   
