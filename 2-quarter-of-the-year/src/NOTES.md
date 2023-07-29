@@ -46,4 +46,4 @@ Constraint:
 [✅] Make test pass
 [✅] Refactor: put a 'it'
 
-[🚧] Create test: should return "2nd Quarter" when the month 4 is given
+[✅] Create test: should return "2nd Quarter" when the month 4 is given
