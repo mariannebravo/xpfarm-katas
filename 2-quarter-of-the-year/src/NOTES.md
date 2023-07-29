@@ -54,3 +54,5 @@ Constraint:
 
 [✅] Create test: should "4th Quarter" when the month 11 is given
 [✅] Make test pass
+
+[🚧] Fix uncovered lines
