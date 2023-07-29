@@ -25,3 +25,5 @@ Examples:
 
 [✅] Create test: Convert the number 1 to -1
 [✅] Make test pass
+
+[✅] Create test: Convert the number -1 to 1
