@@ -22,3 +22,5 @@ Examples:
 
 ## Pomodoro 1 🍅
 [✅] Describe domain
+
+[✅] Create test: Convert the number 1 to -1
