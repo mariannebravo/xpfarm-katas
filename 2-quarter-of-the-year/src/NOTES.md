@@ -28,3 +28,5 @@ Constraint:
 ## Pomodoro 1 🍅
 
 [✅] Describe domain
+
+[✅] Create test: verify if the number given is a valid month
