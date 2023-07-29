@@ -12,6 +12,8 @@ function quarter_of_the_year(num) {
       return '2nd Quarter'
     } else if ((num >= 7 && num <= 9)) {
       return '3rd Quarter'
+    } else {
+      return '4th Quarter'
     }
   }
 }
