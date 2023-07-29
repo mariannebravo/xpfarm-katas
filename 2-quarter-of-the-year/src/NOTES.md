@@ -35,3 +35,5 @@ Constraint:
 
 [✅] Create test: should return true when the month 2 is given
 [✅] Make test pass
+
+[✅] Create test: should return true when the month 6 is given

@@ -9,4 +9,8 @@ describe('Verify Month', () => {
   it('should return true when the month 2 is given', () => {
     expect(verify_month(2)).toBe(true);
   });
+
+  it('should return true when the month 6 is given', () => {
+    expect(verify_month(6)).toBe(true);
+  });
 });
