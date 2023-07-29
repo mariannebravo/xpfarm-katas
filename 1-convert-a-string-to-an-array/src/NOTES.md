@@ -28,3 +28,4 @@ Write a function to split a string and convert it into an array of words.
 - [✅] Make test pass
 
 - [✅] Create test: return ['I', 'love', 'you'] when the input 'I love you' is given.
+- [✅] Make test pass

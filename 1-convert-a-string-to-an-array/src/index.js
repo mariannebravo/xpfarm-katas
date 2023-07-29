@@ -1,5 +1,5 @@
 function convert_string(str) {
-  return ['Hello', 'World']
+  return str.split(' ');
 }
 
 module.exports = { convert_string }
