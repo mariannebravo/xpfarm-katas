@@ -1,4 +1,4 @@
-const { verify_month } = require('../index');
+const { verify_month, quarter_of_the_year } = require('../index');
 
 describe('Verify Month', () => {
   
@@ -17,4 +17,8 @@ describe('Verify Month', () => {
   it('should return false when the month 13 is given', () => {
     expect(verify_month(13)).toBe(false);
   });
+});
+
+describe('Quarter of the year', () => {
+  expect(quarter_of_the_year(1)).toStrictEqual("1st Quarter");
 });
