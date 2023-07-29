@@ -29,3 +29,6 @@ Write a function to split a string and convert it into an array of words.
 
 - [✅] Create test: return ['I', 'love', 'you'] when the input 'I love you' is given.
 - [✅] Make test pass
+
+- [✅] Create test: return ['Slow', 'it', 'down', 'make', 'it', 'bouncy'] when the input 'Slow it down make it bouncy' is given.
+- [✅] Make test pass
