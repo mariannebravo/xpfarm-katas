@@ -30,3 +30,4 @@ Constraint:
 [✅] Describe domain
 
 [✅] Create test: verify if the number given is a valid month
+[✅] Make test pass
