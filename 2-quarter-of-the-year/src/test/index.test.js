@@ -23,4 +23,8 @@ describe('Quarter of the year', () => {
   it('should return "1st Quarter" when the month 1 is given', () => {
     expect(quarter_of_the_year(1)).toStrictEqual("1st Quarter");
   });
+
+  it('should return "2nd Quarter" when the month 4 is given', () => {
+    expect(quarter_of_the_year)
+  });
 });
