@@ -32,3 +32,5 @@ Constraint:
 [✅] Create test: verify if the number given is a valid month
 [✅] Make test pass
 [✅] Refactor test name for: should return false when the month 0 is given
+
+[✅] Create test: should return true when the month 2 is given
