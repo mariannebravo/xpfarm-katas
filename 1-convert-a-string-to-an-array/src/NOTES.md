@@ -25,4 +25,6 @@ Write a function to split a string and convert it into an array of words.
 - [✅] Describe domain
 
 - [✅] Create test: return ['Hello', 'World'] when the input 'Hello World' is given.
-- [✅] Make test pass 
+- [✅] Make test pass
+
+- [✅] Create test: return ['I', 'love', 'you'] when the input 'I love you' is given.
