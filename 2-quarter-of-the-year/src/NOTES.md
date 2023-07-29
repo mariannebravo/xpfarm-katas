@@ -34,3 +34,4 @@ Constraint:
 [✅] Refactor test name for: should return false when the month 0 is given
 
 [✅] Create test: should return true when the month 2 is given
+[✅] Make test pass
