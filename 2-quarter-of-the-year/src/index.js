@@ -10,6 +10,8 @@ function quarter_of_the_year(num) {
       return '1st Quarter'
     } else if ((num >= 4 && num <= 6)) {
       return '2nd Quarter'
+    } else if ((num >= 7 && num <= 9)) {
+      return '3rd Quarter'
     }
   }
 }
