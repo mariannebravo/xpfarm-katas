@@ -23,3 +23,5 @@ Write a function to split a string and convert it into an array of words.
 
 ## Pomodoro 1 🍅
 - [✅] Describe domain
+
+- [✅] Create test: return ['Hello', 'World'] when the input 'Hello World' is given.
