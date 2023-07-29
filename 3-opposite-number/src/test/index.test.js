@@ -13,4 +13,8 @@ describe('Opposite Number', () => {
   it('should convert the number 5 to -5', () => {
     expect(opposite_number(5)).toBe(-5);
   });
+
+  it('should convert the number -500 to 500', () => {
+    expect(opposite_number(-500)).toBe(500);
+  });
 });

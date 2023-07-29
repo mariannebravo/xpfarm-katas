@@ -31,3 +31,6 @@ Examples:
 
 [✅] Create test: Convert the number 5 to -5
 [✅] Make test pass
+
+[✅] Create test: Convert the number -500 to 500
+[✅] Make test pass
