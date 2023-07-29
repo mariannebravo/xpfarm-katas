@@ -43,3 +43,4 @@ Constraint:
 [✅] Make test pass
 
 [✅] Create test: should return "1st Quarter" when the month 1 is given
+[✅] Make test pass
