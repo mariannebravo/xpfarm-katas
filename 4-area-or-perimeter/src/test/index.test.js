@@ -13,4 +13,8 @@ describe('Are or Primeter', () => {
   it('should return \'area\' when the number (6, 7) are given', () => {
     expect(area_or_perimeter(6, 7)).toStrictEqual('area')
   });
+
+  it('should return \'perimeter\' when the number (5, 5) are given', () => {
+    expect(area_or_perimeter(5, 5)).toStrictEqual('perimeter')
+  });
 });
