@@ -31,3 +31,4 @@ If it is a square, return its area. If it is a rectangle, return its perimeter.
 [✅] Describe domain
 
 [✅] Create test: return 'area' when the numbers (6, 10) are given
+[✅] Make test pass
