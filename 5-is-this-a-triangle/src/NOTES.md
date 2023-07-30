@@ -32,3 +32,5 @@ Implement a function that accepts 3 integer values a, b, c. The function should 
 [✅] Make test pass
 
 [✅] Refactor: put verify if is zero into a describe
+
+[✅] Create test: return false when the numbers (2, 2, 4) are given

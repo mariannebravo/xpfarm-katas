@@ -19,4 +19,11 @@ describe('Is this a triangle', () => {
       expect(is_this_a_triangle(0, 1, 1)).toStrictEqual('Zero is not valid.');
     })
   });
+
+  describe('Passed the validation: Testing the function itself', () => {
+
+    it('should return false when the numbers (2, 2, 4) are given', () => {
+      expect(is_this_a_triangle(2, 2, 4)).toBe(false);
+    });
+  });
 });
