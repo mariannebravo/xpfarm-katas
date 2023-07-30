@@ -26,3 +26,4 @@ Implement a function that accepts 3 integer values a, b, c. The function should 
 [✅] Make test pass
 
 [✅] Create test: return 'Zero is not valid' when the third value is zero
+[✅] Make test pass
