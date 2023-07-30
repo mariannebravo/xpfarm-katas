@@ -35,3 +35,6 @@ If it is a square, return its area. If it is a rectangle, return its perimeter.
 
 [✅] Create test: return 'perimeter' when the number (3, 3) are given
 [✅] Make test pass
+
+[✅] Create test: return 'area' when the number (6, 7) are given
+[✅] Make test pass
