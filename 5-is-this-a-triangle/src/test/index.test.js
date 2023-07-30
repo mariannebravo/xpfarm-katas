@@ -25,5 +25,9 @@ describe('Is this a triangle', () => {
     it('should return false when the numbers (2, 2, 4) are given', () => {
       expect(is_this_a_triangle(2, 2, 4)).toBe(false);
     });
+
+    it('should return true when the numbers (2, 2, 2) are given', () => {
+      expect(is_this_a_triangle(2, 2, 2)).toBe(true)
+    });
   });
 });
