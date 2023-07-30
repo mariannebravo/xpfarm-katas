@@ -20,3 +20,4 @@ Implement a function that accepts 3 integer values a, b, c. The function should 
 [✅] Describe domain
 
 [✅] Create test: Verify if any of the numbers given are different than zero.
+[✅] Make test pass
