@@ -37,4 +37,4 @@ Implement a function that accepts 3 integer values a, b, c. The function should 
 [✅] Make test pass
 
 [✅] Create test: return true when the numbers (2, 2, 2) are given
-[🚧] Make test pass
+[✅] Make test pass
