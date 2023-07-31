@@ -26,3 +26,5 @@ powerOf4("not a positive integer") // returns false
 ## Pomodoro 1 🍅
 
 [✅] Describe domain
+
+[✅] Create test: should return false when the input type is 'a'
