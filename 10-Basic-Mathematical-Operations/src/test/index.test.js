@@ -22,4 +22,8 @@ describe('Math Operations', () => {
     expect(math_operations('-', 50, 1)).toStrictEqual(49)
   })
 
+  it("should return the mult of the items inputed ('*', 5, 5)", () => {
+    expect(math_operations('*', 5, 5)).toStrictEqual(25);
+  });
+
 });
