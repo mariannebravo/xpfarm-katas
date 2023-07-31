@@ -10,7 +10,16 @@ function sum_values(arr) {
 }
 
 function diagonals_sum(arr) {
-  return 9
+  let initial = 0;
+
+  arr.map((item) => {
+
+    item.forEach(element => {
+      initial += element
+    });
+  });
+
+  return initial;
 }
 
 module.exports = { sum_values, diagonals_sum }

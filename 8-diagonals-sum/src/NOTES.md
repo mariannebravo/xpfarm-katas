@@ -48,3 +48,4 @@ returns -> 30 // 1 + 5 + 9 + 3 + 5 + 7
 [✅] Make test pass
 
 [✅] Create test: return the sum of the diagonal inputed [[2, 2, 2], [2, 2, 2], [2, 2, 2]]
+[✅] Make test pass
