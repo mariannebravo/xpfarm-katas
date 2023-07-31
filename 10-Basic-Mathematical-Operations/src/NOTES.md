@@ -27,3 +27,4 @@ Examples(Operator, value1, value2) --> output
 [✅] Describe domain
 
 [✅] Create test: should return the sum of the items inputed ('+', 1, 1)
+[✅] Make test pass
