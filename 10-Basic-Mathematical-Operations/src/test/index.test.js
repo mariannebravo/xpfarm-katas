@@ -18,4 +18,8 @@ describe('Math Operations', () => {
     expect(math_operations('/', 2, 2)).toStrictEqual(1);
   });
 
+  it("should return the sub of the items inputed ('-', 50, 1)", () => {
+    expect(math_operations('-', 50, 1)).toStrictEqual(49)
+  })
+
 });

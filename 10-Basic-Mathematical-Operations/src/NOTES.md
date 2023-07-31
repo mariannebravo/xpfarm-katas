@@ -37,3 +37,6 @@ Examples(Operator, value1, value2) --> output
 
 [✅] Create test: should return the div of the items inputed ('/', 2, 2)
 [✅] Make test pass
+
+[✅] Create test: should return the sub of the items inputed ('-', 50, 1)
+[✅] Make test pass
