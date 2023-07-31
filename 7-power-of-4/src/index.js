@@ -1,7 +1,9 @@
 
 function power_of_4(num) {
-  if (typeof num !== 'number') {
-    return false
+  if (Number.isInteger(num)) {
+    return true;
+  } else {
+    return false;
   }
 }
 
