@@ -33,3 +33,5 @@ Note: String will have at least one element; words will always be separated by a
 
 [✅] Create test: should return 'Hello 5' when the word 'Hello' is inputed
 [✅] Make test pass
+
+[✅] Create test: should return ['Hello 5', 'guys 4'] when the word 'Hello guys' is inputed

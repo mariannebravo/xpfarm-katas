@@ -13,4 +13,8 @@ describe('Add Length', () => {
   it("shouldreturn 'Hello 5' when the word 'Hello' is inputed", () => {
     expect(add_length('Hello')).toStrictEqual('Hello 5');
   });
+
+  it("should return ['Hello 5', 'guys 4'] when the word 'Hello guys' is inputed", () => {
+    expect(add_length('Hello guys')).toStrictEqual(['Hello 5', 'guys 4']);
+  });
 });
