@@ -27,3 +27,5 @@ Note: String will have at least one element; words will always be separated by a
 
 [✅] Create test: should return 'Test 4' when the word 'Test' is inputed
 [✅] Make test pass
+
+[✅] Create test: should return 'Love 4' when the word 'Love' is inputed
