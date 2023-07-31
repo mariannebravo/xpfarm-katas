@@ -1,5 +1,5 @@
 function add_length(str) {
-  return 'Test 4'
+  return `${str} ${str.length}`
 }
 
 module.exports = { add_length }
