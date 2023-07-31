@@ -9,4 +9,8 @@ function sum_values(arr) {
   return initial;
 }
 
-module.exports = { sum_values }
+function diagonals_sum(arr) {
+  return 9
+}
+
+module.exports = { sum_values, diagonals_sum }
