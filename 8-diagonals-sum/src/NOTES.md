@@ -28,7 +28,8 @@ returns -> 30 // 1 + 5 + 9 + 3 + 5 + 7
 - Map the array of arrays
 - For each item of the diagonal line arrays mapped, make a sum about it
 - Then sum the results
-  arr1[0] + arr2[1] + arr3[2]
+  arr0[0] + arr1[1] + arr2[2]
+  arr0[2] + arr1[1] + arr2[0]
 
 ## Pomodoro 1 🍅
 
@@ -53,4 +54,4 @@ returns -> 30 // 1 + 5 + 9 + 3 + 5 + 7
 
 // paused the pomodoro to check an external problem
 
-[🚧] Create test: return the sum of the diagonal inputed [[ 1, 2, 3 ], [ 4, 5, 6 ], [ 7, 8, 9 ]]
+[✅] Create test: return the sum of the diagonal inputed [[ 1, 2, 3 ], [ 4, 5, 6 ], [ 7, 8, 9 ]]
