@@ -25,3 +25,5 @@ Examples(Operator, value1, value2) --> output
 
 ## Pomodoro 1 🍅
 [✅] Describe domain
+
+[✅] Create test: should return the sum of the items inputed ('+', 1, 1)
