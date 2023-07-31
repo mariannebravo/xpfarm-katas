@@ -14,4 +14,8 @@ describe('Math Operations', () => {
     expect(math_operations('*', 2, 2)).toStrictEqual(4);
   })
 
+  it("should return the div of the items inputed ('/', 2, 2)", () => {
+    expect(math_operations('/', 2, 2)).toStrictEqual(1);
+  });
+
 });
