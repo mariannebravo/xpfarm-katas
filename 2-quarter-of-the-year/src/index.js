@@ -5,16 +5,14 @@ function verify_month(num) {
 function quarter_of_the_year(num) {
   const isValid = verify_month(num);
 
-  if (isValid) {
-    if ((num >= 1 && num <= 3)) {
-      return '1st Quarter'
-    } else if ((num >= 4 && num <= 6)) {
-      return '2nd Quarter'
-    } else if ((num >= 7 && num <= 9)) {
-      return '3rd Quarter'
-    } else {
-      return '4th Quarter'
-    }
+  if (isValid && (num >= 1 && num <= 3)) {
+    return '1st Quarter'
+  } else if (isValid && (num >= 4 && num <= 6)) {
+    return '2nd Quarter'
+  } else if (isValid && (num >= 7 && num <= 9)) {
+    return '3rd Quarter'
+  } else {
+    return '4th Quarter'
   }
 }
 
