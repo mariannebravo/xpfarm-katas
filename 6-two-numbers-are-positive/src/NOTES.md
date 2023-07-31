@@ -28,3 +28,5 @@ twoArePositive(-14, -3, -4) == false
 ## Pomodoro 1 🍅
 
 [✅] Describe domain
+
+[✅] Create test: should return false when the numbers (-1, -1, -1) are inputed 
