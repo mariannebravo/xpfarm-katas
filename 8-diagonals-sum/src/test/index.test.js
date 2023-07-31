@@ -1,53 +1,35 @@
-const { sum_values, diagonals_sum } = require('../index');
+const { diagonals_sum } = require('../index');
 
 describe('Diagonals Sum', () => {
 
-  describe('Sum Values', () => {
+  it('should return the sum of the diagonal inputed [[1, 1, 1], [1, 1, 1], [1, 1, 1]]', () => {
+    const diag = [
+      [1, 1, 1],
+      [1, 1, 1],
+      [1, 1, 1]
+    ];
 
-    it('should return the sum of a single array [1, 1, 1]', () => {
-      expect(sum_values([1, 1, 1])).toStrictEqual(3);
-    });
-
-    it('should return the sum of a single array [2, 2, 2]', () => {
-      expect(sum_values([2, 2, 2])).toStrictEqual(6);
-    });
-
-    it('should return the sum of a single array [3, 3, 3]', () => {
-      expect(sum_values([3, 3, 3])).toStrictEqual(9);
-    });
+    expect(diagonals_sum(diag)).toStrictEqual(6);
   });
 
-  describe('Diagonals Sum', () => {
+  it('should return the sum of the diagonal inputed [[2, 2, 2], [2, 2, 2], [2, 2, 2]]', () => {
+    const diag = [
+      [2, 2, 2],
+      [2, 2, 2],
+      [2, 2, 2]
+    ];
 
-    it('should return the sum of the diagonal inputed [[1, 1, 1], [1, 1, 1], [1, 1, 1]]', () => {
-      const diag = [
-        [1, 1, 1],
-        [1, 1, 1],
-        [1, 1, 1]
-      ];
-
-      expect(diagonals_sum(diag)).toStrictEqual(6);
-    });
-
-    it('should return the sum of the diagonal inputed [[2, 2, 2], [2, 2, 2], [2, 2, 2]]', () => {
-      const diag = [
-        [2, 2, 2],
-        [2, 2, 2],
-        [2, 2, 2]
-      ];
-
-      expect(diagonals_sum(diag)).toStrictEqual(12);
-    });
-
-    it('should return the sum of the diagonal inputed [[ 1, 2, 3 ], [ 4, 5, 6 ], [ 7, 8, 9 ]]', () => {
-      const diag = [
-        [1, 2, 3],
-        [4, 5, 6],
-        [7, 8, 9]
-      ];
-
-      expect(diagonals_sum(diag)).toStrictEqual(30);
-    });
-
+    expect(diagonals_sum(diag)).toStrictEqual(12);
   });
+
+  it('should return the sum of the diagonal inputed [[ 1, 2, 3 ], [ 4, 5, 6 ], [ 7, 8, 9 ]]', () => {
+    const diag = [
+      [1, 2, 3],
+      [4, 5, 6],
+      [7, 8, 9]
+    ];
+
+    expect(diagonals_sum(diag)).toStrictEqual(30);
+  });
+
 });

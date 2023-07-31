@@ -1,14 +1,4 @@
 
-function sum_values(arr) {
-  let initial = 0;
-
-  arr.forEach(element => {
-    initial += element
-  });
-
-  return initial;
-}
-
 function diagonals_sum(matrix) {
   const mtx0 = matrix[0];
   const mtx1 = matrix[1];
@@ -23,4 +13,4 @@ function diagonals_sum(matrix) {
   return teste;
 }
 
-module.exports = { sum_values, diagonals_sum }
+module.exports = { diagonals_sum }
