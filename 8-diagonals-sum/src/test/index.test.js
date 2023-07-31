@@ -28,5 +28,16 @@ describe('Diagonals Sum', () => {
 
       expect(diagonals_sum(diag)).toStrictEqual(9);
     });
+
+    it('should return the sum of the diagonal inputed [[2, 2, 2], [2, 2, 2], [2, 2, 2]]', () => {
+      const diag = [
+        [2, 2, 2],
+        [2, 2, 2],
+        [2, 2, 2]
+      ];
+
+      expect(diagonals_sum(diag)).toStrictEqual(18);
+    });
+
   });
 });
