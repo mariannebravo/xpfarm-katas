@@ -28,3 +28,5 @@ Examples(Operator, value1, value2) --> output
 
 [✅] Create test: should return the sum of the items inputed ('+', 1, 1)
 [✅] Make test pass
+
+[✅] Create test: should return the sub of the items inputed ('-', 1, 1)
