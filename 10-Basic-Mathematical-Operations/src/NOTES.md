@@ -33,3 +33,4 @@ Examples(Operator, value1, value2) --> output
 [✅] Make test pass
 
 [✅] Create test: should return the mult of the items inputed ('*', 2, 2)
+[✅] Make test pass
