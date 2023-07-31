@@ -35,3 +35,6 @@ powerOf4("not a positive integer") // returns false
 
 [✅] Create test: should return true when the input type is 4
 [✅] Make test pass
+
+[✅] Create test: should return true when the input type is 16
+[✅] Make test pass
