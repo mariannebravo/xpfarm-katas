@@ -59,3 +59,6 @@ returns -> 30 // 1 + 5 + 9 + 3 + 5 + 7
 [✅] Refactor test result after the better understanding of the KATA
 
 [✅] Refactor prod code deleting the unused function and deleting the unused tests.
+
+[✅] Create test: return the sum of the diagonal inputed [[3, 3, 3], [3, 3, 3], [3, 3, 3]]
+[✅] Make test pass

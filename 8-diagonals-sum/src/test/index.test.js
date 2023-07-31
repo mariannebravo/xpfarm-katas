@@ -32,4 +32,10 @@ describe('Diagonals Sum', () => {
     expect(diagonals_sum(diag)).toStrictEqual(30);
   });
 
+  it('should return the sum of the diagonal inputed [[3, 3, 3], [3, 3, 3], [3, 3, 3]]', () => {
+    const diag = [[3, 3, 3], [3, 3, 3], [3, 3, 3]];
+
+    expect(diagonals_sum(diag)).toBe(18)
+  });
+
 });
