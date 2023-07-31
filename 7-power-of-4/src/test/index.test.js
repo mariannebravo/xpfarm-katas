@@ -21,4 +21,8 @@ describe('Power of 4', () => {
   it("should return true when the input type is 32", () => {
     expect(power_of_4(32)).toBeTruth;
   });
+
+  it("should return false when the input type is 44", () => {
+    expect(power_of_4(44)).toBeTruth;
+  });
 });
