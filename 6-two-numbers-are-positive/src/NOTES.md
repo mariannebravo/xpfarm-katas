@@ -37,3 +37,5 @@ twoArePositive(-14, -3, -4) == false
 
 [✅] Create test: should return true when the numbers (-1, 2, 2) are inputed
 [✅] Make test pass
+
+[✅] Create test: should return false when the numbers (2, 2, 2) are inputed

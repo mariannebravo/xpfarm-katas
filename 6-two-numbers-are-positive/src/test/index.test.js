@@ -13,4 +13,8 @@ describe('Two numbers are positive', () => {
   it('should should return true when the numbers (-1, 2, 2) are inputed', () => {
     expect(two_nums_positive([-1, 2, 2])).toBe(true);
   });
+
+  it('should return false when the numbers (2, 2, 2) are inputed', () => {
+    expect(two_nums_positive([2, 2, 2])).toBe(false);
+  });
 });
