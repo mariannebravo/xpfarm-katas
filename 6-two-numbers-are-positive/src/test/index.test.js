@@ -25,4 +25,8 @@ describe('Two numbers are positive', () => {
   it('should return false when the numbers (0, 0, 2) are inputed', () => {
     expect(two_nums_positive([0, 0, 2])).toBe(false);
   });
+
+  it('should return false when the numbers (0, 0, 0) are inputed', () => {
+    expect(two_nums_positive([0, 0, 0])).toBe(false);
+  });
 });
