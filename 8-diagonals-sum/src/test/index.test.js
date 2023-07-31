@@ -26,7 +26,7 @@ describe('Diagonals Sum', () => {
         [1, 1, 1]
       ];
 
-      expect(diagonals_sum(diag)).toStrictEqual(9);
+      expect(diagonals_sum(diag)).toStrictEqual(6);
     });
 
     it('should return the sum of the diagonal inputed [[2, 2, 2], [2, 2, 2], [2, 2, 2]]', () => {
@@ -36,7 +36,7 @@ describe('Diagonals Sum', () => {
         [2, 2, 2]
       ];
 
-      expect(diagonals_sum(diag)).toStrictEqual(18);
+      expect(diagonals_sum(diag)).toStrictEqual(12);
     });
 
     it('should return the sum of the diagonal inputed [[ 1, 2, 3 ], [ 4, 5, 6 ], [ 7, 8, 9 ]]', () => {
