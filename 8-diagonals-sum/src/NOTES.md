@@ -37,3 +37,5 @@ returns -> 30 // 1 + 5 + 9 + 3 + 5 + 7
 [✅] Make test pass
 
 [✅] Refactor of it description
+
+[✅] Create test: return the sum of a single array [2, 2, 2]
