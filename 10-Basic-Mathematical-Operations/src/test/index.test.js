@@ -10,4 +10,8 @@ describe('Math Operations', () => {
     expect(math_operations('-', 1, 1)).toStrictEqual(0);
   });
 
+  it("should return the mult of the items inputed ('*', 2, 2)", () => {
+    expect(math_operations('*', 2, 2)).toStrictEqual(4);
+  })
+
 });
