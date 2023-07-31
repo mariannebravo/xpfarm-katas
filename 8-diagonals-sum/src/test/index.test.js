@@ -39,5 +39,15 @@ describe('Diagonals Sum', () => {
       expect(diagonals_sum(diag)).toStrictEqual(18);
     });
 
+    it('should return the sum of the diagonal inputed [[ 1, 2, 3 ], [ 4, 5, 6 ], [ 7, 8, 9 ]]', () => {
+      const diag = [
+        [1, 2, 3],
+        [4, 5, 6],
+        [7, 8, 9]
+      ];
+
+      expect(diagonals_sum(diag)).toStrictEqual(30);
+    });
+
   });
 });
