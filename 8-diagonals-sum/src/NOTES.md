@@ -33,5 +33,7 @@ returns -> 30 // 1 + 5 + 9 + 3 + 5 + 7
 
 [✅] Describe domain
 
-[✅] Create test: return the sum of a single array values
+[✅] Create test: return the sum of a single array [1, 1, 1]
 [✅] Make test pass
+
+[✅] Refactor of it description
